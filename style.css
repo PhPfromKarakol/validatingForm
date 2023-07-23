@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(139, 207, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form {
+    display: flex;
+    width: 500px;
+    height: 270px;
+    flex-direction: column;
+    border: black solid 1px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+input {
+    width: 460px;
+    height: 45px;
+}
+
+#usernameError {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    display: none;
+}
